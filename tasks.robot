@@ -35,6 +35,7 @@ Input data
     Open Workbook    ${EXCEL_FILE}    read_only=True
     ${worksheet}=    Read Worksheet As Table    header=True
     Close Workbook
+    # The page is reloaded to reset the timer.
     Reload Page
     Wait Until Page Contains Element    css:button.waves-effect
     Click Button    css:button.waves-effect
