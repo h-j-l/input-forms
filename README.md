@@ -1,4 +1,3 @@
-
 # RPA Challenge: Input Forms
 
 URL: [https://www.rpachallenge.com](https://www.rpachallenge.com)
@@ -11,7 +10,7 @@ Note that the fields are shuffled each time the SUBMIT button is pressed.
 ## Steps
 
 1. Download the Excel file
-2. Open any available browser and maximize it
-3. Fill in data for each Excel row
-4. Capture the success rate in output/score.txt
-5. Close the browser
+2. Open the challenge page in Chrome, headless
+3. Fill in the data row by row
+4. Save the score in the output directory as score.png and score.txt
+5. Close Chrome
